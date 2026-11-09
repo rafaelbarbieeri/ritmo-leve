@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contatos — Ritmo Leve</title>
+  <meta name="description" content="Fale com o Ritmo Leve: envie dúvidas, sugestões de temas e propostas de parceria.">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,0..100,0..1;1,9..144,300..600,0..100,0..1&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" id="topo">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Ritmo Leve — página inicial">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <path d="M9 33V19a11 11 0 0 1 22 0v14" fill="none" stroke="currentColor" stroke-width="2.6"/>
+          <circle cx="20" cy="23" r="5" fill="#C0603A"/>
+          <path d="M5 33h30" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-name">Ritmo <em>Leve</em></span>
+      </a>
+      <nav class="site-nav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="bem-estar.html">Bem-Estar</a></li>
+          <li><a href="alimentacao.html">Alimentação</a></li>
+          <li><a href="casa-e-rotina.html">Casa &amp; Rotina</a></li>
+          <li><a href="contatos.html" aria-current="page">Contatos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <section class="page-hero" aria-labelledby="pagina-titulo">
+      <div class="container">
+        <p class="eyebrow rise">Contatos</p>
+        <h1 id="pagina-titulo" class="rise d1">Vamos <em>conversar?</em></h1>
+        <p class="lead rise d2">
+          Tem uma dúvida, quer sugerir um tema ou contar como foi testar alguma dica? Escreva para a gente — toda
+          mensagem é lida com carinho.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact-section" aria-label="Formulário e informações de contato">
+      <div class="container contact-grid">
+
+        <form class="contact-form" id="form-contato" action="#" method="post">
+          <h2>Mande uma mensagem</h2>
+          <div class="form-row">
+            <div class="field">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+            </div>
+          </div>
+          <div class="field">
+            <label for="assunto">Assunto</label>
+            <select id="assunto" name="assunto" required>
+              <option value="">Selecione…</option>
+              <option>Sugestão de tema</option>
+              <option>Dúvida sobre um texto</option>
+              <option>Parceria</option>
+              <option>Outro assunto</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" minlength="10" required></textarea>
+          </div>
+          <label class="check">
+            <input type="checkbox" name="newsletter">
+            <span>Quero receber o post de domingo por e-mail.</span>
+          </label>
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Enviar mensagem <span aria-hidden="true">→</span></button>
+            <p class="form-note">Formulário demonstrativo: neste projeto acadêmico, nenhuma mensagem é enviada.</p>
+          </div>
+          <p class="form-status" role="status" hidden></p>
+        </form>
+
+        <div class="contact-info">
+          <h2>Outros caminhos</h2>
+          <ul class="info-list">
+            <li>
+              <span class="info-label">E-mail</span>
+              <span class="info-value">contato@ritmoleve.com.br</span>
+            </li>
+            <li>
+              <span class="info-label">Onde estamos</span>
+              <span class="info-value">Vila Velha – ES</span>
+            </li>
+            <li>
+              <span class="info-label">Tempo de resposta</span>
+              <span class="info-value">Até 3 dias úteis</span>
+            </li>
+            <li>
+              <span class="info-label">Post novo</span>
+              <span class="info-value">Todo domingo, às 8h</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section band" aria-labelledby="faq-titulo">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Dúvidas frequentes</p>
+            <h2 id="faq-titulo">Antes de escrever</h2>
+          </div>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>Com que frequência vocês publicam?</summary>
+            <p>Publicamos um texto novo todo domingo de manhã, alternando entre as editorias de Bem-Estar, Alimentação e Casa &amp; Rotina.</p>
+          </details>
+          <details>
+            <summary>Posso sugerir um tema?</summary>
+            <p>Pode e deve! Use o formulário acima e escolha o assunto “Sugestão de tema”. As ideias mais pedidas viram post.</p>
+          </details>
+          <details>
+            <summary>As dicas substituem acompanhamento profissional?</summary>
+            <p>Não. Os conteúdos são informativos. Para questões de saúde, sono ou nutrição, procure um profissional habilitado.</p>
+          </details>
+          <details>
+            <summary>Posso compartilhar os textos?</summary>
+            <p>Sim, desde que cite o Ritmo Leve como fonte e inclua o link do texto original.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="brand-name">Ritmo <em>Leve</em></p>
+        <p>Vida simples, dias mais leves. Um blog de life style sobre bem-estar, alimentação, casa e rotina.</p>
+      </div>
+      <div>
+        <h2>Editorias</h2>
+        <ul>
+          <li><a href="bem-estar.html">Bem-Estar</a></li>
+          <li><a href="alimentacao.html">Alimentação</a></li>
+          <li><a href="casa-e-rotina.html">Casa &amp; Rotina</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Fale com a gente</h2>
+        <address>
+          contato@ritmoleve.com.br<br>
+          Vila Velha – ES
+        </address>
+        <p><a href="contatos.html">Página de contatos →</a></p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 Ritmo Leve · Projeto acadêmico AOP2 — UVV</p>
+      <a href="#topo">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+</body>
+</html>

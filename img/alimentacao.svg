@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750" role="img" aria-labelledby="titulo">
+  <title id="titulo">Alimentação: mesa vista de cima com prato colorido, café, limão e tigela de frutas vermelhas</title>
+  <defs>
+    <pattern id="xadrez" width="56" height="56" patternUnits="userSpaceOnUse">
+      <rect width="56" height="56" fill="#F1E8DA"/>
+      <rect width="28" height="56" fill="#C0603A" opacity="0.12"/>
+      <rect width="56" height="28" fill="#C0603A" opacity="0.12"/>
+    </pattern>
+    <filter id="grao" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0.16  0 0 0 0 0.12  0 0 0 0 0.09  0 0 0 1.1 -0.2"/>
+    </filter>
+  </defs>
+
+  <!-- toalha xadrez -->
+  <rect width="600" height="750" fill="url(#xadrez)"/>
+
+  <!-- guardanapo e talheres -->
+  <rect x="474" y="200" width="112" height="320" rx="8" fill="#9AA37A" opacity="0.75" transform="rotate(4 530 360)"/>
+  <g fill="#BDB2A4">
+    <rect x="496" y="322" width="12" height="168" rx="6"/>
+    <rect x="488" y="280" width="28" height="52" rx="12"/>
+    <rect x="488" y="226" width="4" height="70" rx="2"/>
+    <rect x="496" y="226" width="4" height="70" rx="2"/>
+    <rect x="504" y="226" width="4" height="70" rx="2"/>
+    <rect x="512" y="226" width="4" height="70" rx="2"/>
+    <rect x="544" y="330" width="14" height="160" rx="7"/>
+    <path d="M544 336 V246 Q544 222 562 228 Q568 290 558 336 Z"/>
+  </g>
+
+  <!-- prato -->
+  <circle cx="306" cy="372" r="182" fill="#2A211B" opacity="0.08"/>
+  <circle cx="300" cy="364" r="180" fill="#FBF7F1"/>
+  <circle cx="300" cy="364" r="142" fill="none" stroke="#EDE3D4" stroke-width="3"/>
+
+  <!-- folhas: metade do prato -->
+  <circle cx="228" cy="320" r="40" fill="#6E7A55"/>
+  <circle cx="262" cy="392" r="42" fill="#7D8A62"/>
+  <circle cx="206" cy="404" r="32" fill="#55603F"/>
+  <circle cx="268" cy="308" r="26" fill="#8C9A66"/>
+  <circle cx="236" cy="452" r="26" fill="#9AA37A"/>
+  <circle cx="196" cy="356" r="22" fill="#8C9A66"/>
+  <g fill="none" stroke="#C9CDA6" stroke-width="2" stroke-linecap="round">
+    <path d="M212 300 L244 338"/>
+    <path d="M246 372 L280 410"/>
+    <path d="M194 392 L218 418"/>
+    <path d="M226 440 L246 462"/>
+    <path d="M258 298 L276 318"/>
+  </g>
+
+  <!-- tomates -->
+  <circle cx="352" cy="272" r="30" fill="#CF4E35"/>
+  <circle cx="352" cy="272" r="22" fill="#E06A4E"/>
+  <circle cx="404" cy="306" r="30" fill="#CF4E35"/>
+  <circle cx="404" cy="306" r="22" fill="#E06A4E"/>
+  <circle cx="350" cy="330" r="26" fill="#CF4E35"/>
+  <circle cx="350" cy="330" r="19" fill="#E06A4E"/>
+  <g fill="#F6D8A8">
+    <ellipse cx="344" cy="265" rx="3" ry="5"/>
+    <ellipse cx="360" cy="267" rx="3" ry="5"/>
+    <ellipse cx="352" cy="282" rx="3" ry="5"/>
+    <ellipse cx="396" cy="300" rx="3" ry="5"/>
+    <ellipse cx="412" cy="301" rx="3" ry="5"/>
+    <ellipse cx="404" cy="316" rx="3" ry="5"/>
+    <ellipse cx="343" cy="326" rx="3" ry="4.5"/>
+    <ellipse cx="357" cy="326" rx="3" ry="4.5"/>
+    <ellipse cx="350" cy="339" rx="3" ry="4.5"/>
+  </g>
+
+  <!-- ovos -->
+  <ellipse cx="346" cy="420" rx="42" ry="31" fill="#FFFDF8" stroke="#EFE5D6" stroke-width="2" transform="rotate(-15 346 420)"/>
+  <circle cx="350" cy="418" r="15" fill="#F0B44C"/>
+  <ellipse cx="410" cy="400" rx="38" ry="28" fill="#FFFDF8" stroke="#EFE5D6" stroke-width="2" transform="rotate(25 410 400)"/>
+  <circle cx="406" cy="402" r="14" fill="#EFA93E"/>
+
+  <!-- cenoura -->
+  <circle cx="302" cy="232" r="12" fill="#E8893E"/>
+  <circle cx="302" cy="232" r="6" fill="#F2A65E"/>
+  <circle cx="318" cy="256" r="11" fill="#E8893E"/>
+  <circle cx="318" cy="256" r="5.5" fill="#F2A65E"/>
+  <circle cx="312" cy="472" r="11" fill="#E8893E"/>
+  <circle cx="312" cy="472" r="5.5" fill="#F2A65E"/>
+
+  <!-- pimenta -->
+  <g fill="#2A211B" opacity="0.45">
+    <circle cx="338" cy="398" r="1.6"/>
+    <circle cx="364" cy="436" r="1.6"/>
+    <circle cx="398" cy="384" r="1.6"/>
+    <circle cx="420" cy="414" r="1.6"/>
+    <circle cx="330" cy="440" r="1.6"/>
+  </g>
+
+  <!-- café -->
+  <circle cx="121" cy="136" r="72" fill="#2A211B" opacity="0.07"/>
+  <circle cx="116" cy="128" r="72" fill="#FBF7F1"/>
+  <rect x="158" y="119" width="36" height="18" rx="9" fill="#F4EDE3" stroke="#E5D6C1" stroke-width="2"/>
+  <circle cx="116" cy="128" r="50" fill="#F4EDE3" stroke="#E5D6C1" stroke-width="3"/>
+  <circle cx="116" cy="128" r="40" fill="#6B3E26"/>
+  <circle cx="116" cy="128" r="30" fill="#8A5434" opacity="0.55"/>
+  <ellipse cx="104" cy="114" rx="12" ry="6" fill="#C8956A" opacity="0.5" transform="rotate(-30 104 114)"/>
+
+  <!-- limão -->
+  <circle cx="114" cy="644" r="50" fill="#2A211B" opacity="0.07"/>
+  <circle cx="110" cy="638" r="50" fill="#EDC85C"/>
+  <circle cx="110" cy="638" r="43" fill="#F6E19A"/>
+  <g stroke="#EDC85C" stroke-width="3" stroke-linecap="round">
+    <path d="M110 638 L110 598"/>
+    <path d="M110 638 L138 610"/>
+    <path d="M110 638 L150 638"/>
+    <path d="M110 638 L138 666"/>
+    <path d="M110 638 L110 678"/>
+    <path d="M110 638 L82 666"/>
+    <path d="M110 638 L70 638"/>
+    <path d="M110 638 L82 610"/>
+  </g>
+  <circle cx="110" cy="638" r="5" fill="#F3F0D8"/>
+
+  <!-- raminho de ervas -->
+  <path d="M196 706 C228 668 252 646 292 626" fill="none" stroke="#4F5A3A" stroke-width="3" stroke-linecap="round"/>
+  <g fill="#55603F">
+    <ellipse cx="222" cy="668" rx="6" ry="13" transform="rotate(-60 222 668)"/>
+    <ellipse cx="226" cy="688" rx="6" ry="13" transform="rotate(30 226 688)" fill="#6E7A55"/>
+    <ellipse cx="250" cy="642" rx="6" ry="13" transform="rotate(-60 250 642)" fill="#6E7A55"/>
+    <ellipse cx="258" cy="664" rx="6" ry="13" transform="rotate(30 258 664)"/>
+    <ellipse cx="282" cy="622" rx="6" ry="12" transform="rotate(-70 282 622)"/>
+    <ellipse cx="300" cy="624" rx="6" ry="12" transform="rotate(60 300 624)" fill="#6E7A55"/>
+  </g>
+
+  <!-- tigela de frutas vermelhas -->
+  <circle cx="476" cy="648" r="74" fill="#2A211B" opacity="0.07"/>
+  <circle cx="470" cy="640" r="74" fill="#7D8A62"/>
+  <circle cx="470" cy="640" r="62" fill="#F4EDE3"/>
+  <g fill="#C23B33">
+    <circle cx="470" cy="628" r="12"/>
+    <circle cx="500" cy="648" r="12"/>
+    <circle cx="438" cy="642" r="12"/>
+    <circle cx="494" cy="672" r="11"/>
+    <circle cx="460" cy="600" r="11"/>
+  </g>
+  <g fill="#4A3B5C">
+    <circle cx="448" cy="618" r="11"/>
+    <circle cx="474" cy="606" r="10"/>
+    <circle cx="496" cy="620" r="11"/>
+    <circle cx="458" cy="646" r="11"/>
+    <circle cx="482" cy="650" r="10"/>
+    <circle cx="470" cy="670" r="11"/>
+    <circle cx="444" cy="666" r="10"/>
+  </g>
+  <g fill="#FFFFFF" opacity="0.45">
+    <circle cx="445" cy="615" r="3"/>
+    <circle cx="471" cy="603" r="3"/>
+    <circle cx="493" cy="617" r="3"/>
+    <circle cx="455" cy="643" r="3"/>
+    <circle cx="467" cy="667" r="3"/>
+  </g>
+
+  <!-- grão -->
+  <rect width="600" height="750" filter="url(#grao)" opacity="0.16"/>
+</svg>

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750" role="img" aria-labelledby="titulo">
+  <title id="titulo">Manhã tranquila: sol nascendo sobre colinas, xícara de chá, livros e vaso com galhos na janela</title>
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8E6CD"/>
+      <stop offset="0.55" stop-color="#F2CBA3"/>
+      <stop offset="1" stop-color="#E9B188"/>
+    </linearGradient>
+    <radialGradient id="sol" cx="0.42" cy="0.38" r="0.7">
+      <stop offset="0" stop-color="#F6B585"/>
+      <stop offset="1" stop-color="#DE7E4B"/>
+    </radialGradient>
+    <clipPath id="vaso-forma">
+      <path d="M152 500 C128 528 126 584 150 600 H204 C228 584 226 528 202 500 Z"/>
+    </clipPath>
+    <filter id="grao" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0.16  0 0 0 0 0.12  0 0 0 0 0.09  0 0 0 1.1 -0.2"/>
+    </filter>
+  </defs>
+
+  <!-- céu e sol -->
+  <rect width="600" height="750" fill="url(#ceu)"/>
+  <circle cx="300" cy="372" r="196" fill="#F7DDBC" opacity="0.6"/>
+  <circle cx="300" cy="372" r="122" fill="url(#sol)"/>
+
+  <!-- pássaros -->
+  <g fill="none" stroke="#5C5047" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M136 214 q12 -11 24 0 q12 -11 24 0"/>
+    <path d="M196 176 q9 -8 18 0 q9 -8 18 0"/>
+    <path d="M418 236 q8 -7 16 0 q8 -7 16 0"/>
+  </g>
+
+  <!-- colinas -->
+  <path d="M0 424 C90 384 180 376 280 408 C380 440 470 456 600 404 V750 H0 Z" fill="#BDC09A"/>
+  <path d="M0 482 C120 444 230 452 330 486 C430 520 520 524 600 490 V750 H0 Z" fill="#9AA37A"/>
+  <g fill="#5E6A45">
+    <ellipse cx="468" cy="476" rx="10" ry="19"/>
+    <ellipse cx="487" cy="483" rx="8" ry="14"/>
+    <ellipse cx="92" cy="446" rx="9" ry="16"/>
+  </g>
+  <path d="M0 544 C150 510 300 524 420 552 C500 570 560 566 600 556 V750 H0 Z" fill="#7B8761"/>
+
+  <!-- parapeito -->
+  <rect x="0" y="600" width="600" height="150" fill="#BF8A5E"/>
+  <rect x="0" y="592" width="600" height="18" fill="#D8A878"/>
+  <rect x="0" y="610" width="600" height="8" fill="#A06F46" opacity="0.55"/>
+  <g stroke="#B07D52" stroke-width="2" opacity="0.6">
+    <path d="M0 660 H600"/>
+    <path d="M0 712 H600"/>
+  </g>
+
+  <!-- galhos -->
+  <g fill="none" stroke="#4F5A3A" stroke-width="4" stroke-linecap="round">
+    <path d="M170 502 C162 452 150 412 132 368 C120 338 112 306 114 270"/>
+    <path d="M182 502 C188 456 200 420 216 384 C226 360 238 336 258 314"/>
+    <path d="M176 502 C176 470 172 440 176 410"/>
+  </g>
+  <g fill="#55603F">
+    <ellipse cx="114" cy="260" rx="8" ry="20" fill="#6E7A55"/>
+    <ellipse cx="104" cy="300" rx="8" ry="20" transform="rotate(-35 104 300)"/>
+    <ellipse cx="134" cy="318" rx="8" ry="20" transform="rotate(35 134 318)" fill="#6E7A55"/>
+    <ellipse cx="116" cy="350" rx="8" ry="20" transform="rotate(-40 116 350)" fill="#6E7A55"/>
+    <ellipse cx="148" cy="372" rx="8" ry="20" transform="rotate(40 148 372)"/>
+    <ellipse cx="134" cy="404" rx="8" ry="19" transform="rotate(-45 134 404)"/>
+    <ellipse cx="160" cy="432" rx="7" ry="17" transform="rotate(40 160 432)" fill="#6E7A55"/>
+    <ellipse cx="266" cy="306" rx="8" ry="20" transform="rotate(50 266 306)" fill="#6E7A55"/>
+    <ellipse cx="236" cy="320" rx="8" ry="20" transform="rotate(-20 236 320)"/>
+    <ellipse cx="250" cy="356" rx="8" ry="20" transform="rotate(60 250 356)"/>
+    <ellipse cx="212" cy="368" rx="8" ry="19" transform="rotate(-25 212 368)" fill="#6E7A55"/>
+    <ellipse cx="228" cy="402" rx="7" ry="18" transform="rotate(60 228 402)" fill="#6E7A55"/>
+    <ellipse cx="176" cy="398" rx="7" ry="16"/>
+  </g>
+
+  <!-- vaso -->
+  <rect x="160" y="488" width="34" height="16" rx="5" fill="#EADFCD"/>
+  <path d="M152 500 C128 528 126 584 150 600 H204 C228 584 226 528 202 500 Z" fill="#F4ECE0"/>
+  <g clip-path="url(#vaso-forma)">
+    <rect x="120" y="540" width="120" height="10" fill="#7D8A62"/>
+    <rect x="120" y="556" width="120" height="4" fill="#C0603A"/>
+  </g>
+  <path d="M192 508 C212 532 214 578 200 596" fill="none" stroke="#E2D3BD" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- livros -->
+  <rect x="246" y="574" width="104" height="24" rx="3" fill="#7D8A62"/>
+  <rect x="256" y="552" width="88" height="22" rx="3" fill="#C0603A"/>
+  <rect x="262" y="583" width="44" height="5" rx="2.5" fill="#BDC09A"/>
+  <rect x="270" y="560" width="36" height="5" rx="2.5" fill="#E8A57E"/>
+
+  <!-- xícara de chá -->
+  <ellipse cx="420" cy="598" rx="72" ry="10" fill="#EFE5D6"/>
+  <path d="M466 544 C496 542 498 576 460 580" fill="none" stroke="#FAF5EE" stroke-width="8" stroke-linecap="round"/>
+  <path d="M370 530 H470 L463 570 Q456 594 420 594 Q384 594 377 570 Z" fill="#FAF5EE"/>
+  <ellipse cx="420" cy="531" rx="50" ry="7" fill="#9A4A26"/>
+  <path d="M375 552 Q420 560 465 552" fill="none" stroke="#C0603A" stroke-width="4"/>
+  <g fill="none" stroke="#FFFFFF" stroke-opacity="0.8" stroke-width="5" stroke-linecap="round">
+    <path d="M404 512 c-12 -16 12 -24 0 -40 c-12 -16 12 -24 0 -40"/>
+    <path d="M436 506 c-10 -14 10 -22 0 -36 c-10 -14 10 -22 0 -36"/>
+  </g>
+
+  <!-- grão -->
+  <rect width="600" height="750" filter="url(#grao)" opacity="0.18"/>
+</svg>
